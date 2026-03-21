@@ -34,7 +34,9 @@
         class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
       >
         <!-- logo -->
-        <a href="#" class="font-display text-2xl text-emerald-700 italic">bloom.</a>
+        <a href="#" class="font-display text-2xl text-emerald-700 italic"
+          >bloom.</a
+        >
         <!-- links -->
         <ul class="hidden md:flex gap-8 text-sm font-medium text-stone-600">
           <li>
@@ -64,42 +66,93 @@
     </header>
 
     <!-- hero -->
-    <section>
-      <div>hero text</div>
+    <section
+      class="bg-gradient-to-br from-lime-100 via-emerald-50 to-teal-100 min-h-[100vh] flex items-center"
+    >
+      hero text
     </section>
 
     <!-- flavours -->
-    <section>flavours</section>
+    <section id="flavours" class="py-24 bg-stone-50">flavours</section>
 
     <!-- testimonials -->
-    <section>testimonials</section>
+    <section
+      id="love"
+      class="py-24 bg-gradient-to-r from-lime-50 via-emerald-50 to-teal-50"
+    >
+      testimonials
+    </section>
 
     <!-- faq -->
-    <section>faq</section>
+    <section id="faq" class="py-24 bg-stone-50">faq</section>
 
     <!-- newsletter signup -->
-    <section>newsletter signup</section>
+    <section
+      id="signup"
+      class="py-24 bg-gradient-to-br from-emerald-500 to-teal-600"
+    >
+      <div class="max-w-2xl mx-auto px-6 text-center">
+        <p>Join the club</p>
+        <h2>Get 20% off your first order.</h2>
+        <p>
+          Sign up for freshness updates, new flavour drops, and the occasional
+          good news.
+        </p>
+        <div>
+          <input
+            type="email"
+            placeholder="your@email.com"
+            class="flex-1 px-5 py-3 rounded-full text-stone-800 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-white"
+          />
+          <button
+            class="bg-white hover:bg-stone-100 text-emerald-700 font-semibold px-8 py-3 rounded-full transition-colors whitespace-nowrap"
+          >
+            Claim my 20% off
+          </button>
+        </div>
+
+        <p>No spam. Unsubscribe whenever. We're nice like that.</p>
+      </div>
+    </section>
 
     <!-- footer -->
-  <footer class="bg-stone-900 text-stone-400 py-12">
-    <div class="max-w-6xl mx-auto px-6">
- 
-      <!-- logo / links -->
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8 pb-8 border-b border-stone-800">
-        <a href="#" class="font-display text-2xl text-emerald-400 italic">bloom.</a>
-        <ul class="flex flex-wrap gap-6 text-sm">
-          <li><a href="#" class="hover:text-white transition-colors">About</a></li>
-          <li><a href="#" class="hover:text-white transition-colors">Flavours</a></li>
-          <li><a href="#" class="hover:text-white transition-colors">Sustainability</a></li>
-          <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
-          <li><a href="#" class="hover:text-white transition-colors">Privacy</a></li>
-        </ul>
+    <footer class="bg-stone-900 text-stone-400 py-12">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- logo / links -->
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8 pb-8 border-b border-stone-800"
+        >
+          <a href="#" class="font-display text-2xl text-emerald-400 italic"
+            >bloom.</a
+          >
+          <ul class="flex flex-wrap gap-6 text-sm">
+            <li>
+              <a href="#" class="hover:text-white transition-colors">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Flavours</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Sustainability</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors">Contact</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors">Privacy</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- copyright -->
+        <p class="text-sm text-stone-600">
+          © 2026 Bloom Juice Co. Made with love and a lot of fruit.
+        </p>
       </div>
- 
-      <!-- copyright -->
-      <p class="text-sm text-stone-600">© 2026 Bloom Juice Co. Made with love and a lot of fruit.</p>
- 
-    </div>
-  </footer>
+    </footer>
   </body>
 </html>
