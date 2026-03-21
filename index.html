@@ -4,15 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloom Juice Co.</title>
+    <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-stone-50 text-stone-800">
+
+  <!-- add google fonts -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Playfair Display"', "serif"],
+            body: ['"DM Sans"', "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <body class="bg-stone-50 font-body text-stone-800 overflow-x-hidden">
     <header class="bg-stone-50 sticky top-0 z-50 border-b border-stone-200">
       <nav
         class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
       >
         <!-- logo -->
-        <a href="#" class="text-2xl text-emerald-700 italic">bloom.</a>
+        <a href="#" class="font-display text-2xl text-emerald-700 italic">bloom.</a>
         <!-- links -->
         <ul class="hidden md:flex gap-8 text-sm font-medium text-stone-600">
           <li>
@@ -59,40 +81,25 @@
     <section>newsletter signup</section>
 
     <!-- footer -->
-    <footer class="bg-stone-900 text-stone-400 py-12">
-      <div class="max-w-6xl mx-auto px-6">
-        <!-- links -->
-        <div
-          class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8 pb-8 border-b border-stone-800"
-        >
-          <ul class="flex flex-wrap gap-6 text-sm">
-            <li>
-              <a href="#" class="hover:text-white transition-colors">About</a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-white transition-colors"
-                >Flavours</a
-              >
-            </li>
-            <li>
-              <a href="#" class="hover:text-white transition-colors"
-                >Sustainability</a
-              >
-            </li>
-            <li>
-              <a href="#" class="hover:text-white transition-colors">Contact</a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-white transition-colors">Privacy</a>
-            </li>
-          </ul>
-        </div>
-
-        <!--copyright -->
-        <p class="text-sm text-stone-600">
-          © 2026 Bloom Juice Co. Made with love and a lot of fruit.
-        </p>
+  <footer class="bg-stone-900 text-stone-400 py-12">
+    <div class="max-w-6xl mx-auto px-6">
+ 
+      <!-- logo / links -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-8 pb-8 border-b border-stone-800">
+        <a href="#" class="font-display text-2xl text-emerald-400 italic">bloom.</a>
+        <ul class="flex flex-wrap gap-6 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Flavours</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Sustainability</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Privacy</a></li>
+        </ul>
       </div>
-    </footer>
+ 
+      <!-- copyright -->
+      <p class="text-sm text-stone-600">© 2026 Bloom Juice Co. Made with love and a lot of fruit.</p>
+ 
+    </div>
+  </footer>
   </body>
 </html>
