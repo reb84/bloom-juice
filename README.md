@@ -4,7 +4,7 @@
 ![CSS3|43](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS|143](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-<!-- ![Screenshot](assets/screenshot.png) -->
+![Screenshot](screenshot.png)
 
 ✨ [LIVE DEMO](https://bloom-juice.netlify.app)
 
